@@ -1,0 +1,14 @@
+[project]
+name = "google-mcp-haystack"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "haystack-ai",
+    "jupyter>=1.1.1",
+    "mcp-haystack>=0.0.1",
+]
+
+[tool.uv.sources]
+haystack-ai = { git = "https://github.com/deepset-ai/haystack.git", rev = "main" }
