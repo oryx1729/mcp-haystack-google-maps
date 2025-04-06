@@ -14,9 +14,7 @@ This project implements `MCPServer`, a Haystack `Toolset` that connects to remot
 
 ## Installation
 
-```bash
-pip install haystack-integrations-mcp
-```
+Use `uv` to install the dependencies.
 
 ## Quick Start
 
